@@ -180,6 +180,43 @@ h2 {
 .carrito-item__boton:hover {
     background: var(--secundarioOscuro);
 }
+.carrito__toggle {
+    background: var(--secundario);
+    border: none;
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carrito--minimizado {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carrito--minimizado #carrito-lista,
+.carrito--minimizado #carrito-total {
+    display: none;
+}
+
+.carrito--minimizado .carrito__toggle {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .carrito {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 /** Estilos para los botones de eliminación **/
 .carrito-item__boton--eliminar {
     background: var(--secundarioOscuro);
