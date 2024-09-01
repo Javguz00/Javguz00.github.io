@@ -168,10 +168,12 @@
   <script src="js/carrito.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/drag-drop-touch/1.0.0/DragDropTouch.min.js"></script>
   <script>
-      document.querySelector('.carrito__toggle').addEventListener('click', function() {
-          const carrito = document.querySelector('.carrito');
-          carrito.classList.toggle('carrito--minimizado');
-      });
-  </script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.carrito__toggle').addEventListener('click', function() {
+                const carrito = document.querySelector('.carrito');
+                carrito.classList.toggle('carrito--minimizado');
+            });
+        });
+    </script>
   </body>
 </html>
