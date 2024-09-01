@@ -213,8 +213,8 @@ h2 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media (max-width: 928px) {
-    .carrito {
+@media (min-width: 1024px) {
+    .cart-button {
         display: none;
     }
 }
