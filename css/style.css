@@ -207,6 +207,20 @@ h2 {
     display: none;
 }
 
+.carrito__toggle {
+    background: var(--secundario);
+    border: none;
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .carrito--minimizado .carrito__toggle {
     transform: rotate(180deg);
 }
