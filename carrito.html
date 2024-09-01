@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="carrito.html">Carrito</a>
+        <a class="navegacion__enlace" href="confirmacion.html">Confirmar Compra</a>
+    </nav>
+
+    <main>
+        <h1>Carrito de Compras</h1>
+        <ul id="carrito-lista"></ul>
+        <p id="carrito-total">Total: $0</p>
+        <p id="geolocalizacion">Geolocalización: Cargando...</p>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Skate shop - Todos los derechos Reservados 2024.</p>
+    </footer>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

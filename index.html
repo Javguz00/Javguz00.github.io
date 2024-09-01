@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate shop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="carrito.html">Carrito</a>
+        <a class="navegacion__enlace" href="confirmacion.html">Confirmar Compra</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nuestros Productos</h1>
+        
+        <div class="carrito">
+            <h2>Carrito de Compras</h2>
+            <div class="carrito__contenedor">
+                <ul id="carrito-lista"></ul>
+            </div>
+            <p id="carrito-total">Total: $0</p>
+        </div>
+
+        <div class="grid">
+            <div class="producto" draggable="true" data-name="Girl Malto" data-price="25">
+                    <img class="producto__imagen" src="img/1.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Girl Malto</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Girl Bennett" data-price="25">
+                    <img class="producto__imagen" src="img/2.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Girl Bennett</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Girl Bannerot" data-price="25">
+                    <img class="producto__imagen" src="img/3.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Girl Bannerot</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Girl Geering" data-price="25">
+                    <img class="producto__imagen" src="img/4.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Girl Geering</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Alien workshop 1" data-price="25">
+                    <img class="producto__imagen" src="img/5.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Alien workshop</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Alien workshop 2" data-price="25">
+                    <img class="producto__imagen" src="img/6.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Alien workshop</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Alien workshop 3" data-price="25">
+                    <img class="producto__imagen" src="img/7.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Alien workshop</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="video">
+                <div class="video__contenido">
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/LbAPfIv680U?autoplay=1&mute=1" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div> <!--.video-->
+            <div class="producto" draggable="true" data-name="Alien workshop 4" data-price="25">
+                    <img class="producto__imagen" src="img/8.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Alien workshop</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Alien workshop 5" data-price="25">
+                    <img class="producto__imagen" src="img/9.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Alien workshop</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Thrasher" data-price="25">
+                    <img class="producto__imagen" src="img/10.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Thrasher</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Blind 1" data-price="25">
+                    <img class="producto__imagen" src="img/11.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Blind</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Blind 2" data-price="25">
+                    <img class="producto__imagen" src="img/12.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Blind</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Blind 3" data-price="25">
+                    <img class="producto__imagen" src="img/13.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Blind</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+            <div class="producto" draggable="true" data-name="Madrid" data-price="25">
+                    <img class="producto__imagen" src="img/14.jpg" alt="imagen skate">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Madrid</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>  <!--.producto-->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Skate shop - Todos los derechos Reservados 2024.</p>
+        <p class="footer__texto">Javier  Alfredo Guzman Rodas 0900-21-12604</p>
+    </footer>
+    <!-- Botón flotante del carrito -->
+<button id="cart-button" class="cart-button">
+    🛒 <span id="cart-count">0</span>
+  </button>
+  
+  <!-- Contenedor del carrito (Modal / desplegable) -->
+  <div id="cart-container" class="cart-container hidden">
+    <div class="cart-content">
+      <h3>Tu carrito</h3>
+      <div id="cart-items">
+        <!-- Aquí se mostrarán los artículos del carrito -->
+      </div>
+      <button id="close-cart" class="close-cart">Cerrar</button>
+    </div>
+  </div>
+  
+  <script src="js/carrito.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drag-drop-touch/1.0.0/DragDropTouch.min.js"></script>
+  <script src="js/cart-button.js"></script> 
+  </body>
+</html>
